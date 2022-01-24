@@ -71,7 +71,7 @@ services:
         networks:
             - ffplayout-network
         ports:
-            - "80:80"
+            - "81:81"
         restart: unless-stopped
         depends_on:
             - ffplayout-api
