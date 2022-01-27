@@ -1,12 +1,6 @@
 ---
 version: '3.6'
 
-jobs:
-    build:
-        steps:
-            - setup_remote_docker:
-                version: 20.10.9
-
 services:
     srs:
         container_name: srs
