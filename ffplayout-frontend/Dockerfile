@@ -12,7 +12,7 @@ RUN apk update && \
         mv "ffplayout-frontend-${version}" 'ffplayout-frontend' && \
         rm "v${version}.zip" && \
         cd ffplayout-frontend && \
-        echo "BASE_URL='http://194.195.240.91'" > .env && \
+        echo "BASE_URL='http://172.104.154.144'" > .env && \
         echo "API_URL='/'" >> .env && \
         npm install && \
         npm run build && \
