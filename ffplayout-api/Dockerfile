@@ -1,4 +1,4 @@
-FROM python:3-alpine
+FROM python:3.9-alpine
 
 ENV DJANGO_SETTINGS_MODULE=ffplayout.settings.production
 ARG version=3.0.0
